@@ -91,7 +91,7 @@ export function EthicalInvestingPage() {
       subtitle="Values-Aligned Finance"
       description="Invest according to your values. Explore ESG investing, impact funds, and strategies for building wealth while making a positive difference."
       articles={[
-        { title: "The Beginner's Guide to ESG Investing", excerpt: "What ESG really means, and how to build a portfolio that reflects your values.", readTime: "7 min" },
+        { title: "The Beginner's Guide to ESG Investing", excerpt: "What ESG really means, and how to build a portfolio that reflects your values.", readTime: "7 min", slug: "beginners-guide-esg-investing" },
         { title: "Impact Investing vs ESG: What's the Difference?", excerpt: "Understanding the spectrum of values-aligned investing approaches.", readTime: "6 min" },
         { title: "Top ESG ETFs for European Investors", excerpt: "A curated selection of the best environmentally and socially responsible funds.", readTime: "9 min" },
         { title: "Greenwashing: How to Spot It", excerpt: "Not all 'green' funds are truly ethical. Here's how to see through the marketing.", readTime: "5 min" },
