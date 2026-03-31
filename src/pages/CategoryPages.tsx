@@ -107,7 +107,7 @@ export function ExpatFinancePage() {
       subtitle="Cross-Border Wealth"
       description="Financial strategies for professionals living abroad. Covering cross-border banking, international tax planning, and building wealth as an expat in Europe."
       articles={[
-        { title: "How I Built a €100K Portfolio as an Expat", excerpt: "A personal journey through the challenges and opportunities of investing while living abroad.", readTime: "8 min" },
+        { title: "How I Built a €100K Portfolio as an Expat", excerpt: "A personal journey through the challenges and opportunities of investing while living abroad.", readTime: "8 min", slug: "100k-portfolio-expat" },
         { title: "The Expat's Guide to European Brokerage Accounts", excerpt: "Which brokers accept expats, and what to consider when choosing one.", readTime: "7 min" },
         { title: "Cross-Border Tax Planning for Beginners", excerpt: "Navigating tax obligations when you live in one country and invest in another.", readTime: "10 min" },
         { title: "Currency Risk: What Expats Need to Know", excerpt: "How exchange rate fluctuations affect your investments and how to manage them.", readTime: "6 min" },
