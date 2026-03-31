@@ -25,19 +25,23 @@ export function CategoryPage({ title, subtitle, description, articles }: Categor
 
       <section className="container pb-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {articles.map((article, i) => (
-            <div key={i} className="group border border-divider rounded-sm p-6 hover:border-accent transition-colors">
-              <div className="aspect-[3/1] bg-muted rounded-sm mb-4" />
-              <h3 className="font-serif text-lg font-semibold text-foreground group-hover:text-accent transition-colors mb-2">
-                {article.title}
-              </h3>
-              <p className="text-sm text-caption leading-relaxed mb-3">{article.excerpt}</p>
-              <span className="inline-flex items-center gap-1 text-xs text-accent font-sans uppercase tracking-wider">
-                Read article <ArrowRight className="h-3 w-3" />
-              </span>
-              <p className="text-xs text-caption mt-2">{article.readTime} read</p>
-            </div>
-          ))}
+          {articles.map((article, i) => {
+            const Wrapper = article.slug ? Link : "div";
+            const wrapperProps = article.slug ? { to: `/article/${article.slug}` } : {};
+            return (
+              <Wrapper key={i} {...(wrapperProps as any)} className="group border border-divider rounded-sm p-6 hover:border-accent transition-colors">
+                <div className="aspect-[3/1] bg-muted rounded-sm mb-4" />
+                <h3 className="font-serif text-lg font-semibold text-foreground group-hover:text-accent transition-colors mb-2">
+                  {article.title}
+                </h3>
+                <p className="text-sm text-caption leading-relaxed mb-3">{article.excerpt}</p>
+                <span className="inline-flex items-center gap-1 text-xs text-accent font-sans uppercase tracking-wider">
+                  Read article <ArrowRight className="h-3 w-3" />
+                </span>
+                <p className="text-xs text-caption mt-2">{article.readTime} read</p>
+              </Wrapper>
+            );
+          })}
         </div>
       </section>
 
