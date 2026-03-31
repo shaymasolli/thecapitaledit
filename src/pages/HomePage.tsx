@@ -15,15 +15,15 @@ const categories = [
 ];
 
 const featuredArticles = [
-  { title: "The Complete Guide to Halal Investing in Europe", category: "Halal Investing", readTime: "12 min", href: "/halal-investing" },
-  { title: "How I Built a €100K Portfolio as an Expat", category: "Expat Finance", readTime: "8 min", href: "/expat-finance" },
-  { title: "FIRE Movement: Can You Retire Early Ethically?", category: "FIRE & Wealth", readTime: "10 min", href: "/fire-wealth" },
+  { title: "The Complete Guide to Halal Investing in Europe", category: "Halal Investing", readTime: "12 min", href: "/article/complete-guide-halal-investing-europe" },
+  { title: "How I Built a €100K Portfolio as an Expat", category: "Expat Finance", readTime: "8 min", href: "/article/100k-portfolio-expat" },
+  { title: "FIRE Movement: Can You Retire Early Ethically?", category: "FIRE & Wealth", readTime: "10 min", href: "/article/fire-retire-early-ethically" },
 ];
 
 const editorsPickArticles = [
-  { title: "Trading 212 vs DEGIRO: Which Is Better for European Investors?", category: "Reviews", readTime: "9 min", href: "/reviews" },
-  { title: "The Beginner's Guide to ESG Investing", category: "Ethical Investing", readTime: "7 min", href: "/ethical-investing" },
-  { title: "5 Budgeting Methods That Actually Work", category: "Finance Basics", readTime: "6 min", href: "/finance-basics" },
+  { title: "Trading 212 vs DEGIRO: Which Is Better for European Investors?", category: "Reviews", readTime: "9 min", href: "/article/trading-212-vs-degiro" },
+  { title: "The Beginner's Guide to ESG Investing", category: "Ethical Investing", readTime: "7 min", href: "/article/beginners-guide-esg-investing" },
+  { title: "5 Budgeting Methods That Actually Work", category: "Finance Basics", readTime: "6 min", href: "/article/budgeting-methods-that-work" },
   { title: "Understanding Zakat on Investments", category: "Halal Investing", readTime: "5 min", href: "/halal-investing" },
 ];
 
