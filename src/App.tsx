@@ -11,6 +11,7 @@ import ReviewsPage from "./pages/ReviewsPage";
 import NewsletterPage from "./pages/NewsletterPage";
 import DisclaimerPage from "./pages/DisclaimerPage";
 import PrivacyPage from "./pages/PrivacyPage";
+import ArticlePage from "./pages/ArticlePage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/article/:slug" element={<ArticlePage />} />
           <Route path="/finance-basics" element={<FinanceBasicsPage />} />
           <Route path="/halal-investing" element={<HalalInvestingPage />} />
           <Route path="/ethical-investing" element={<EthicalInvestingPage />} />
