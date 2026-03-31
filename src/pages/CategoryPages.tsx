@@ -7,7 +7,7 @@ interface CategoryPageProps {
   title: string;
   subtitle: string;
   description: string;
-  articles: { title: string; excerpt: string; readTime: string }[];
+  articles: { title: string; excerpt: string; readTime: string; slug?: string }[];
 }
 
 export function CategoryPage({ title, subtitle, description, articles }: CategoryPageProps) {
