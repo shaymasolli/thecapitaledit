@@ -75,7 +75,7 @@ export function HalalInvestingPage() {
       subtitle="Shariah-Compliant Finance"
       description="Navigate the world of halal investing with confidence. Comprehensive guides on Shariah-compliant ETFs, stocks, and wealth-building strategies for Muslim investors."
       articles={[
-        { title: "The Complete Guide to Halal Investing in Europe", excerpt: "Everything you need to know about building a Shariah-compliant portfolio in the European market.", readTime: "12 min" },
+        { title: "The Complete Guide to Halal Investing in Europe", excerpt: "Everything you need to know about building a Shariah-compliant portfolio in the European market.", readTime: "12 min", slug: "complete-guide-halal-investing-europe" },
         { title: "Halal ETFs: A Comprehensive Comparison", excerpt: "Comparing the top Shariah-compliant ETFs available to European investors.", readTime: "10 min" },
         { title: "Understanding Zakat on Investments", excerpt: "How to calculate and pay Zakat on stocks, ETFs, and other investment assets.", readTime: "5 min" },
         { title: "Is Cryptocurrency Halal? A Balanced Analysis", excerpt: "Examining crypto through the lens of Islamic finance principles.", readTime: "8 min" },
