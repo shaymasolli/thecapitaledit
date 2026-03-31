@@ -60,7 +60,7 @@ export function FinanceBasicsPage() {
       description="Master the fundamentals of personal finance. From budgeting and saving to understanding compound interest — everything you need to build a solid financial foundation."
       articles={[
         { title: "The Complete Beginner's Guide to Personal Finance", excerpt: "Everything you need to know about managing your money, from budgeting to your first investment.", readTime: "15 min" },
-        { title: "5 Budgeting Methods That Actually Work", excerpt: "Find the budgeting approach that fits your lifestyle — not the other way around.", readTime: "6 min" },
+        { title: "5 Budgeting Methods That Actually Work", excerpt: "Find the budgeting approach that fits your lifestyle — not the other way around.", readTime: "6 min", slug: "budgeting-methods-that-work" },
         { title: "Emergency Funds: How Much Is Enough?", excerpt: "The definitive guide to building your financial safety net as a European professional.", readTime: "5 min" },
         { title: "Understanding Compound Interest", excerpt: "Why Einstein called it the eighth wonder of the world — and how to make it work for you.", readTime: "4 min" },
       ]}
