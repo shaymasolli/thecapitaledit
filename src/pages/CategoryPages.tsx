@@ -123,7 +123,7 @@ export function FireWealthPage() {
       subtitle="Financial Independence"
       description="Strategies for achieving financial independence and retiring early — the ethical way. Long-term wealth building, savings rates, and FIRE principles for European professionals."
       articles={[
-        { title: "FIRE Movement: Can You Retire Early Ethically?", excerpt: "Exploring whether financial independence is achievable while investing according to your values.", readTime: "10 min" },
+        { title: "FIRE Movement: Can You Retire Early Ethically?", excerpt: "Exploring whether financial independence is achievable while investing according to your values.", readTime: "10 min", slug: "fire-retire-early-ethically" },
         { title: "Your FIRE Number: How to Calculate It", excerpt: "A practical guide to determining how much you actually need to retire early.", readTime: "7 min" },
         { title: "Coast FIRE vs Lean FIRE vs Fat FIRE", excerpt: "Understanding the different flavours of financial independence and which suits you.", readTime: "6 min" },
         { title: "Building Passive Income Streams in Europe", excerpt: "Practical strategies for generating income beyond your primary salary.", readTime: "9 min" },
